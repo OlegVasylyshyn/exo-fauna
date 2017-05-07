@@ -94,4 +94,7 @@ article {
 	line-height: 1.5;
 	padding: 30px;
 	width: 100%;
+	-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
