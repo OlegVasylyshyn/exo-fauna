@@ -52,6 +52,7 @@ nav li a:hover {
 
 main {
     text-align: center;
+    float: right;
 }
 
 h2 {
@@ -88,7 +89,9 @@ article {
 }
 
 #videos {
+	float: right;
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
+	width: auto;
 }
