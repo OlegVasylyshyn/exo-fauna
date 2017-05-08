@@ -14,7 +14,6 @@ body {
 
 header{
 	height:70px;
-	margin: 1px 1px 1px 1px;
 	padding: 20px 1px 1px 1px;
 }
 
@@ -29,7 +28,6 @@ header{
 }
 
 nav {
-	overflow: hidden;
 	float: right;
 }
 
@@ -52,12 +50,16 @@ nav li a:hover {
 
 main {
     text-align: center;
-    float: right;
 }
 
 h2 {
 	text-align: center;
 	padding-bottom: 30px;
+}
+
+.contact-h {
+	text-align: left;
+	padding: 10px 0px 10px 30px;
 }
 
 img {
@@ -76,28 +78,22 @@ article {
 
 #home {
 	font-size: 30px;
-	margin: 1px 1px 1px 1px;
 	padding: 30px;
 }
 
 #about {
-    float: right;
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
 }
 
 #videos {
-	float: right;
 	border-top-style: solid;
 	line-height: 1.5;
 	padding: 30px;
-	width: 100%;
-	-webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 footer {
 	clear: right;
+	padding: 0px 0px 10px 10px;
 }
